@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #28223F;
+	background-color: #123144;
 	font-family: Montserrat, sans-serif;
 	display: flex;
 	align-items: center;
@@ -36,10 +36,10 @@ p.justi{
 }
 
 .card-container {
-	background-color: #231E39;
+	background-color:#123144;
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-	color: #B3B8CD;
+	color: #f5f5f5;
 	padding-top: 30px;
 	position: relative;
 	width: 350px;
@@ -48,8 +48,8 @@ p.justi{
 }
 
 .card-container .estudante {
-	color: #231E39;
-	background-color: #FEBB0B;
+	color: #f5f5f5;
+	background-color: #03BFCB;
 	border-radius: 3px;
 	font-size: 14px;
 	font-weight: bold;
@@ -60,17 +60,16 @@ p.justi{
 }
 
 .card-container .perfil {
-	border: 1px solid #03BFCB;
+	border: 3px solid #f5f5f5;
 	border-radius: 50%;
 	padding: 7px;
 	width: 128px;
 }
 
 a.linke {
-	background-color: #03BFCB;
-	border: 1px solid #03BFCB;
+	border: 1px solid #f5f5f5;;
 	border-radius: 3px;
-	color: #231E39;
+	color: #f5f5f5;
 	font-family: Montserrat, sans-serif;
 	font-weight: 500;
 	padding: 10px 25px;
@@ -79,21 +78,21 @@ a.linke {
 
 a:hover {
 	text-decoration: none;
-	color: #03BFCB;
+	color: ;
 	transition: 0.5s
 }
 a.linke:hover {
-	background-color: #231E39;
-	border: 1px solid #03BFCB;
+	background-color: #123144;
+	border: 1px solid #3add82;
 	border-radius: 3px;
-	color: #03BFCB;
+	color: #3add82;
 	font-family: Montserrat, sans-serif;
 	font-weight: 500;
 	padding: 10px 25px;
 }
 
 .skills {
-	background-color: #1F1A36;
+	background-color: #123144;
 	text-align: left;
 	padding: 15px;
 	margin-top: 30px;
@@ -106,7 +105,7 @@ a.linke:hover {
 }
 
 .skills ul li {
-	border: 1px solid #2D2747;
+	border: 1px solid #f5f5f5;
 	border-radius: 2px;
 	display:inline-flex;
 	font-size: 12px;
@@ -115,8 +114,9 @@ a.linke:hover {
 }
 
 .skills li:hover{
-	background:#231E39;
-	color:#F8F8FF;
-	border:1px solid #F8F8FF;
+	background:#123144;
+	color:#3add82;
+	border:1px solid #3add82;
 	transition: 0.5s;
 }
+
