@@ -78,7 +78,6 @@ a.linke {
 
 a:hover {
 	text-decoration: none;
-	color: ;
 	transition: 0.5s
 }
 a.linke:hover {
@@ -119,4 +118,27 @@ a.linke:hover {
 	border:1px solid #3add82;
 	transition: 0.5s;
 }
+.curriculo{
+	text-align: center;
+	padding-bottom:20px;
+	padding-top: 15px;
+}
+a.Cv {
+	border: 1px solid #f5f5f5;;
+	border-radius: 3px;
+	color: #f5f5f5;
+	font-family: Montserrat, sans-serif;
+	font-weight: 300;
+	padding: 10px 25px;
+	text-decoration: none;
+}
 
+a.Cv:hover {
+	background-color: #123144;
+	border: 1px solid #3add82;
+	border-radius: 3px;
+	color: #3add82;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+}
